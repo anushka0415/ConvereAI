@@ -1,0 +1,132 @@
+body {
+    background: linear-gradient( 90deg, rgba(180, 226, 170, 1) 20%, rgba(29, 156, 142, 1) 100%);
+}
+
+#video {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+#startBtn,
+#stopBtn,
+#pauseBtn,
+#resumeBtn {
+    margin: 20px;
+    background-color: rgb(9, 9, 91);
+    color: aliceblue;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.page {
+    /* margin-top: 50px; */
+    height: 100vh;
+    /* animation-name: $ {
+        gradient
+    }
+    ;
+    animation-duration: 8s; */
+    background: linear-gradient( 90deg, rgba(180, 226, 170, 1) 20%, rgba(29, 156, 142, 1) 100%);
+}
+
+#video {
+    border-radius: 30px;
+    border: black 5px solid;
+    margin-top: 40px;
+    height: 40%;
+}
+
+.videobtn {
+    padding-top: 20px;
+}
+
+.navbar {
+    background-color: rgb(9, 9, 91) !important;
+}
+
+.navbar-brand:hover {
+    color: antiquewhite;
+}
+
+.navbar-brand {
+    color: aliceblue;
+}
+
+.mainheading>h1,
+p {
+    text-align: center;
+}
+
+.mainheading>h1 {
+    /* text-align: left; */
+    font-weight: 900;
+    font-size: 4vw;
+    color: #003366;
+    margin-bottom: 10px;
+    /* padding-bottom: 10px; */
+}
+
+.maind {
+    display: flex;
+    flex-direction: row;
+    padding-top: 100px;
+    justify-content: center;
+    align-items: right;
+    /* gap: 10px; */
+}
+
+.maind>img {
+    width: 400px;
+    padding-left: 100px;
+}
+
+.para {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+    color: rgb(8, 15, 20);
+    background-color: aliceblue;
+    padding: 20px 20px;
+    border-radius: 6px;
+    /* padding-left: 20px; */
+    /* text-align: right; */
+    font-size: 2.5vw;
+}
+
+.start {
+    margin-right: auto;
+    margin-left: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(92.88deg, #455EB5 9.16%, #5643CC 43.89%, #673FD7 64.72%);
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    flex-shrink: 0;
+    font-family: "Inter UI", "SF Pro Display", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    height: 4rem;
+    padding: 0 1.6rem;
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+    transition: all .5s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.start:hover {
+    box-shadow: rgba(80, 63, 205, 0.5) 0 1px 30px;
+    transition-duration: .1s;
+}
