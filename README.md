@@ -1,8 +1,8 @@
 ## ConvereAI
 
-**##The Grammarly of soft skills!**
+**The Grammarly of soft skills!**
 
-**#Problem statement:**
+**Problem statement:**
 
 Imagine presenting a project when your anxiousness, lack of preparation, and fear of public speaking hit 
 you all at once. Social phobia, also called social anxiety disorder, is the third most common mental 
